@@ -36,5 +36,27 @@ function show(){
     console.log(i);
 }
 
-// let i=5;
-console.log(i);
+j=5;
+
+var result = 0;
+var result = (j==4) ? "Yes" : "No";
+console.log(result);
+
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+  }
+
+
+for (let i = 1; i <= 5; i++) {console.log(8);}
+
+  // Fibonacci series
+  let limit = 50;
+  let a = 0;
+  let b = 1;
+
+  while (a <= limit) {
+    console.log(a);
+    let temp = a + b;
+    a = b;
+    b = temp;
+  }
