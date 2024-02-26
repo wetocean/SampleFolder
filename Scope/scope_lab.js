@@ -60,3 +60,10 @@ for (let i = 1; i <= 5; i++) {console.log(8);}
     a = b;
     b = temp;
   }
+
+  const add = (a, b, c) => {return a + b + c;}
+  x = add(2,3,5);
+  console.log(x); // Output: 6
+
+  document.getElementById("demo").innerHTML = "Hi there!";
+  
