@@ -13,7 +13,7 @@ let count = 0;
 
 function displayCount() {
     document.getElementById('countDisplay').innerText = count;
-    console.log(count);
+    console.log(`my Count: ${count}`);
   }
 
   function checkCountValue() {
